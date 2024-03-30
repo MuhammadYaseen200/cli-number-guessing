@@ -4,6 +4,7 @@ import inquirer from "inquirer";
 //const backendinputnumber = 7
 const randomNumber = Math.floor(Math.random() * 10 + 1);
 // console.log(randomNumber);
+console.log("Computer have select a numeber,to determine this exact number You can choose a number between 1-10");
 //2) user input for guessing a number  -Done
 const answer = await inquirer.prompt([
     {
